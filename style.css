@@ -614,17 +614,17 @@ nav{
     }
     #page1{
         width: 100%;
-        padding-bottom: 9vw;
+        padding-bottom: 15vw;
     }
     #page1 h1{
-        font-size: 9.2vw;
+        font-size: 10.3vw;
         text-align: center;
         margin-left: -22px;
         margin-top: 12px;
         margin-bottom: 10px;
     }
     #page1>p{
-        font-size: 3.3vw;
+        font-size: 3.4vw;
         padding-bottom: 2vw;
     }
     #page2{
