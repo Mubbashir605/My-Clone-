@@ -58,7 +58,7 @@ nav{
     border:none;
     border-radius: 30px;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:sans-serif;
     transition: all 0.6s ease-in-out;
     &:hover{
         box-shadow: 2px 5px 5px rgb(16, 14, 14);
@@ -126,7 +126,7 @@ nav{
     cursor: pointer;
     transition: all 0.6s ease-in-out;
     margin-bottom: 1vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     &:hover{
     background-color: aliceblue;  
     color: green;
