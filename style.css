@@ -629,14 +629,14 @@ nav{
     }
     #page2{
         width: 100%;
+        margin-bottom:2vw;
     }
     #page2 >img{
         width: 100%;
         margin-bottom: 1vw;
-        margin-top:12px;
     }
     #btn1{
-        padding: 3vw 3.6vw;
+        padding: 2.8vw 3.2vw;
         font-size: 0.8rem;
         margin-left: 35%;
         margin-bottom: 1vw;
