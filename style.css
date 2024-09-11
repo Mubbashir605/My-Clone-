@@ -612,7 +612,6 @@ nav{
     }
     #page1{
         width: 100%;
-        padding-bottom: 5vw;
     }
     #page1 h1{
         font-size: 10.1vw;
@@ -623,7 +622,7 @@ nav{
     }
     #page1>p{
         font-size: 3.5vw;
-        padding-bottom: 2.3vw;
+        padding-bottom: 2.1vw;
     }
     #page2{
         width: 100%;
@@ -631,12 +630,12 @@ nav{
     #page2 >img{
         width: 100%;
         margin-bottom: 1vw;
-        margin-top:-15px;
+        margin-top:-25px;
     }
     #btn1{
         padding: 12px 16px;
         font-size: 16px;
-        margin-left: 30%;
+        margin-left: 27%;
     }
     .sidenav{
         width: 100%;
