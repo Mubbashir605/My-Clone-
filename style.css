@@ -633,6 +633,7 @@ nav{
     #page2 >img{
         width: 100%;
         margin-bottom: 1vw;
+        margin-top:25px;
     }
     #btn1{
         padding: 4vw 4vw;
