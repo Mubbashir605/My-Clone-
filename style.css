@@ -635,6 +635,7 @@ nav{
     #btn1{
         padding: 6px 8px;
         font-size: 14px;
+        margin-bottom:1.2vh;
     }
     .sidenav{
         width: 100%;
