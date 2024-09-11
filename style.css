@@ -633,9 +633,10 @@ nav{
     #page2 >img{
         width: 100%;
         margin-bottom: 1vw;
+        margin-top:-3vw;
     }
     #btn1{
-        padding: 8px 10px;
+        padding: 12px 13px;
         font-size: 0.8rem;
         margin-left: 35%;
     }
