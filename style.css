@@ -633,11 +633,11 @@ nav{
     #page2 >img{
         width: 100%;
         margin-bottom: 1vw;
-        margin-top:-3vw;
+        margin-top:-15px;
     }
     #btn1{
-        padding: 12px 13px;
-        font-size: 0.8rem;
+        padding: 12px 16px;
+        font-size: 16px;
         margin-left: 35%;
     }
     .sidenav{
