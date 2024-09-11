@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLONE HTML || CSS</title>
+    <link rel="shortcut icon" href="./images/icon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <div class="leftnav">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="rightnav">
+                <ul>
+                    <li><a href="./Home page.html">HOME</a></li>
+                    <li><a href="./About page.html">ABOUT</a></li>
+                    <li><a href="./Service page.html">SERVICE</a></li>
+                    <li><a href="./Blog page.html">BLOG</a></li>
+                    <li><a href="./More page.html">MORE</a></li>
+                    <button id="btn">Tap Here</button>
+                </ul>
+                <div onclick="showsidebar()" class="menu">
+                    <img src="./images/icon.png" alt="">
+                </div>
+                <div class="sidenav">
+                    <ul>
+                        <li onclick="hidesidebar()"><a href="#"><i style="font-size: 25px;right: 50%;position: relative;" class="fa-solid fa-x"></i></a></li>
+                        <li><a href="./Home page.html">HOME</a></li>
+                        <li><a href="./About page.html">ABOUT</a></li>
+                        <li><a href="./Service page.html">SERVICE</a></li>
+                        <li><a href="./Blog page.html">BLOG</a></li>
+                        <li><a href="./More page.html">MORE</a></li>
+                    </ul>    
+            </div>
+        </nav>
+        <div id="pageparent1">
+            <div id="page1">
+                <h1>Welcome To Our <br><span style="color: green;">Clone!</span></h1>
+                <p>Lorem ipsum dolor sit amet,adipiscing elit. sed vel felis that lectus laoreet. Maecenas tincidunt velit lectus the consectetur, fringilla an erate laoreet. turpis phar Integer sed velit vel erat for the bibendum gravida sed neque. </p>
+                <button id="btn1">Read more</button>
+            </div>
+            <div id="page2">
+                <img src="./images/image.webp" alt="">
+            </div>
+        </div>
+        <div id="pageparent2">
+            <div id="page3">
+                <div class="card1">
+                        <h1>Rider</h1>
+                        <button>Book me</button>
+                </div>
+                <div class="card2">
+                    <h1>Coder</h1>
+                    <button>Hire me</button>
+                </div>
+                <div class="card3">
+                    <h1>Labour</h1>
+                    <button>Book me</button>
+                </div>
+            </div>
+            <div id="page4">
+                <div class="card4">
+                    <h1>Chef</h1>
+                    <button>Book me</button>
+                </div>
+                <div class="card5">
+                    <h1>Police</h1>
+                    <button>Assist me</button>
+                </div>
+                <div class="card6">
+                    <h1>Designer</h1>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div id="page4">
+                <div class="card7">
+                    <h1>Astronaut</h1>
+                    <button>Hire me</button>
+                </div>
+                <div class="card8">
+                    <h1>Painter</h1>
+                    <button>Assist me</button>
+                </div>
+                <div class="card9">
+                    <h1>Lawyer</h1>
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="side1">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet, Maecenas tincidunt velit lectus the consectetur, fringilla erate laoreet. justo vel turpis pharetra Integer sed velit vel erat and bibendum gravida sed  in the neque.</p>
+            </div>
+            <div id="side2">
+                <h1>Contact Us</h1>
+                <p>Email: 123@example.com</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Address: Street 123, City, State, Zip Code</p>
+            </div>
+            <div id="side3">
+                <h1>Follow Us</h1>
+                <div class="social">
+                    <ol style="list-style: none;text-align: center;line-height: 25px;margin-left: -30px;">
+                        <li>SERVICES</li>
+                        <li>MORE</li>
+                        <li>ABOUT</li>
+                        <li>WORK</li>
+                    </ol>
+                </div>
+            </div>
+            
+        </div>
+        <div id="copyright" style="width: 100%;color: aliceblue;text-align: center;padding-top: 1vw;padding-bottom: 1vw;background-color:black;">
+            <p>�� 2024 Clone. All rights reserved.</p>
+            <p>Made with <i class="fa-solid fa-heart"></i> by <a href="#"><span style="color: green;">Clone Team</span></a></p>
+            <div class="footericons" style=" width: 100%; font-size: 20px;gap:15px;display: flex;display: flex;justify-content: center;">
+                <a href="https://www.instagram.com/mubbashir_88"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        </div>
+        <script>
+            function showsidebar() {
+              const sidenav =  document.querySelector(".sidenav")
+              sidenav.style.display = "flex";
+            }
+            function hidesidebar() {
+              const sidenav =  document.querySelector(".sidenav")
+              sidenav.style.display = "none";
+            }
+        </script>
+</body>
+</html>
