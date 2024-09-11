@@ -629,17 +629,15 @@ nav{
     }
     #page2{
         width: 100%;
-        margin-bottom:2vw;
     }
     #page2 >img{
         width: 100%;
         margin-bottom: 1vw;
     }
     #btn1{
-        padding: 2.8vw 3.2vw;
+        padding: 8px 10px;
         font-size: 0.8rem;
         margin-left: 35%;
-        margin-bottom: 1vw;
     }
     .sidenav{
         width: 100%;
