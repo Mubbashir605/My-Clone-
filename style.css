@@ -630,12 +630,11 @@ nav{
     #page2 >img{
         width: 100%;
         margin-bottom: 2vw;
-        margin-top:-25px;
+        margin-top:-15px;
     }
     #btn1{
-        padding: 6px 8px;
+        padding: 6px 10px;
         font-size: 14px;
-        margin-bottom:2vh;
     }
     .sidenav{
         width: 100%;
