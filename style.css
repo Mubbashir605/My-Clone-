@@ -614,18 +614,18 @@ nav{
     }
     #page1{
         width: 100%;
-        padding-bottom: 15vw;
+        padding-bottom: 20vw;
     }
     #page1 h1{
         font-size: 10.3vw;
         text-align: center;
         margin-left: -22px;
         margin-top: 12px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     #page1>p{
-        font-size: 3.4vw;
-        padding-bottom: 2vw;
+        font-size: 3.5vw;
+        padding-bottom: 2.3vw;
     }
     #page2{
         width: 100%;
@@ -635,7 +635,7 @@ nav{
         margin-bottom: 1vw;
     }
     #btn1{
-        padding: 2.2vw 3.5vw;
+        padding: 2.2vw 4vw;
         font-size: 0.8rem;
         margin-left: 35%;
         margin-bottom: 1vw;
